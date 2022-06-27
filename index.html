@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+  <head>
+
+    <title> breadth-first search </title>
+
+    <script src = "p5-lib/p5.js"> </script>
+    <script src = "p5-lib/p5.sound.min.js"> </script>
+
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "style.css">
+
+    <meta charset = "utf-8">
+
+  </head>
+
+  <body>
+
+    <main>
+
+      <p class = "title"> breadth-first search </p>
+
+      <button class = "web_button"
+              onclick = "createWeb()"> create new tree </button>
+
+      <button class = "field_button"
+              onclick = "searchFor()"> search </button>
+      <input class = "field"
+             id = "inputField">
+
+      <p class = "message"
+         id = "result"> enter two values to search for... </p>
+
+      <noscript> please enable javascript to continue... </noscript>
+
+    </main>
+
+    <script src = "js/vars.js"> </script>
+    <script src = "js/node.js"> </script>
+    <script src = "js/graph.js"> </script>
+    <script src = "js/sketch.js"> </script>
+  
+  </body>
+
+</html>
